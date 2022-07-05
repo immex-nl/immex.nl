@@ -10,6 +10,7 @@ users:
       - "{{ lookup('file', '~/Development/SSH/Hostinger/Immex/immex.pub', errors='ignore') }}"
 #      - "{{ lookup('file', '~/.ssh/id_rsa.pub', errors='ignore') }}"
 #      - "{{ lookup('file', '~/.ssh/id_ed25519.pub', errors='ignore') }}"
+      - https://github.com/immex-nl.keys
       # - https://github.com/username.keys
   - name: "{{ admin_user }}"
     groups:
@@ -18,6 +19,7 @@ users:
       - "{{ lookup('file', '~/Development/SSH/Hostinger/Immex/immex.pub', errors='ignore') }}"
 #      - "{{ lookup('file', '~/.ssh/id_rsa.pub', errors='ignore') }}"
 #      - "{{ lookup('file', '~/.ssh/id_ed25519.pub', errors='ignore') }}"
+      - https://github.com/immex-nl.keys
       # - https://github.com/username.keys
 
 web_user: web
