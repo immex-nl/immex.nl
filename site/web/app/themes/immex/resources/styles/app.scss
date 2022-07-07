@@ -6,6 +6,13 @@ body {}
 main {}
 strong { font-weight: 600; }
 
+h1 {}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0 2rem 0;
+}
+
 .header {
   &__container {
     display: flex;

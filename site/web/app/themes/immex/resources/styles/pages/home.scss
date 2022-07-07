@@ -1,14 +1,42 @@
 .home {
   &__hero {
     @extend .my-6;
+    &--subtitle {
+      @extend .my-6, .pl-1;
+      font-size: 1.2em;
+    }
+    &--img {
+      height: 500px;
+      margin-top: -2rem;
+    }
     h1 {
       font-size: 5rem;
       font-weight: 600;
       line-height: 1.2em;
     }
-    &--subtitle {
-      @extend .my-6, .pl-1;
-      font-size: 1.2em;
+  }
+  &__markets {
+    @extend .my-6;
+  }
+  &__table {
+    border: 1px solid hsl(0, 0%, 92%);
+    border-radius: $radius;
+    table {
+      background: transparent;
+      th, td {
+        @extend .py-4, .px-5;
+      }
+      th {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        span {
+          @extend .has-text-grey-light;
+        }
+      }
+      td {
+        font-size: 15px;
+      }
     }
   }
 }

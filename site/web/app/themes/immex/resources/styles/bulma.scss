@@ -3,9 +3,13 @@ $radius: 5px;
 
 $family-sans-serif: Montserrat, sans-serif;
 $body-weight: 500;
+$body-color: #000;
 
 @import "~bulma/bulma.sass";
 
 .button {
   svg { height: 1em; width: auto; }
+}
+.table *{
+  border-color: hsl(0, 0%, 92%) !important;
 }

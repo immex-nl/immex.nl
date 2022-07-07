@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80b16f53-7a5f-48d3-ab70-9c418dad94b6" name="Default Changelist" comment="immex init">
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/pages/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/components/icons/arrow-right.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/home.blade.php" afterDir="false" />
+    <list default="true" id="80b16f53-7a5f-48d3-ab70-9c418dad94b6" name="Default Changelist" comment="home">
+      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/images/hero.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/scripts/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/bulma.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/bulma.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/web/app/themes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/web/app/themes/immex/resources/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -142,6 +143,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site/web/app/themes/immex/resources/images" />
       <recent name="$PROJECT_DIR$/site/web/app/themes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -160,7 +162,7 @@
       <workItem from="1656951781465" duration="587000" />
       <workItem from="1656954551294" duration="811000" />
       <workItem from="1657038828221" duration="11661000" />
-      <workItem from="1657178199244" duration="18904000" />
+      <workItem from="1657178199244" duration="23376000" />
     </task>
     <task id="LOCAL-00001" summary="frame">
       <created>1657051939382</created>
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657205176173</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="home">
+      <created>1657207560479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657207560479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +235,8 @@
     <MESSAGE value="frame" />
     <MESSAGE value="sage init" />
     <MESSAGE value="immex init" />
-    <option name="LAST_COMMIT_MESSAGE" value="immex init" />
+    <MESSAGE value="home" />
+    <option name="LAST_COMMIT_MESSAGE" value="home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="433" key="#Composer" timestamp="1656952168330">
@@ -265,14 +275,18 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="397" y="185" key="SettingsEditor/0.23.1792.1046@0.23.1792.1046" timestamp="1657043971100" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1657203035367">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1657209333978">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1046@0.23.1792.1046" timestamp="1657203035367" />
-    <state x="496" y="286" key="Vcs.Push.Dialog.v2" timestamp="1657205178150">
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1046@0.23.1792.1046" timestamp="1657209333978" />
+    <state x="496" y="286" key="Vcs.Push.Dialog.v2" timestamp="1657207563764">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state x="496" y="286" key="Vcs.Push.Dialog.v2/0.23.1792.1046@0.23.1792.1046" timestamp="1657205178150" />
+    <state x="496" y="286" key="Vcs.Push.Dialog.v2/0.23.1792.1046@0.23.1792.1046" timestamp="1657207563764" />
+    <state x="515" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1657208595585">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state x="515" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1046@0.23.1792.1046" timestamp="1657208595585" />
     <state x="694" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1657043935095">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
@@ -309,18 +323,18 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="100" y="123" width="1592" height="846" key="dock-window-8/0.23.1792.1046@0.23.1792.1046" timestamp="1657048440174" />
-    <state x="487" y="275" width="1019" height="691" key="find.popup" timestamp="1657203114720">
+    <state x="487" y="275" width="1019" height="691" key="find.popup" timestamp="1657210018591">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state x="487" y="275" width="1019" height="691" key="find.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1657203114720" />
+    <state x="487" y="275" width="1019" height="691" key="find.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1657210018591" />
     <state x="545" y="269" width="700" height="530" key="recent.locations.popup" timestamp="1657039001984">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="545" y="269" width="700" height="530" key="recent.locations.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1657039001984" />
-    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup" timestamp="1657204634670">
+    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup" timestamp="1657208474612">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1657204634670" />
+    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1657208474612" />
   </component>
   <component name="WordPressConfiguration" doNotAskConfigAgain="true" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../protivogaz.store/site/web/wp</wordpressPath>
