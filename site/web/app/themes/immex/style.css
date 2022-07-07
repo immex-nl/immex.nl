@@ -1,37 +1,4 @@
 /*
-Theme Name: IMMEX NL
-Version: 1.0
+Theme Name:         IMMEX NL
+Version:            3.41
 */
-
-/* GLOBAL */
-body {
-    margin: 0;
-    overflow: hidden;
-}
-header {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%;
-    height: 70px;
-    background: #fff;
-    z-index: 99;
-}
-iframe {
-    width: 100%;
-    height: calc(100% + 750px);
-    border: none;
-    transform: translateY(-30px);
-}
-
-/* HOME */
-#home {
-
-}
-
-/* TRADE */
-#trade header {
-    height: 50px;
-}
-#trade iframe {
-    transform: translateY(0);
-}

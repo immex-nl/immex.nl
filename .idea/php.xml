@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/site/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/site/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/site/vendor/graham-campbell/result-type" />
@@ -15,6 +20,58 @@
       <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/site/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/site/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/site/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/site/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/site/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/site/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/site/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/site/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/site/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/site/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/site/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/site/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/site/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/support" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/acorn" />
+      <path value="$PROJECT_DIR$/site/vendor/voku/portable-ascii" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
