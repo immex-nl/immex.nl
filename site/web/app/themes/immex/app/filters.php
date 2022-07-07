@@ -18,9 +18,13 @@ remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
 remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
 remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
 remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
+remove_action( 'wp_head', 'rest_output_link_wp_head' );
+remove_action('wp_head', 'wp_generator');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head', 'rsd_link');
 
 add_filter('body_class', function ( $classes ){
-    $remove_classes = ['wp-embed-responsive', 'blog'];
+    $remove_classes = ['wp-embed-responsive', 'blog', 'wp-custom-logo'];
     $classes = array_diff($classes, $remove_classes);
     return $classes;
 });
@@ -30,3 +34,8 @@ add_filter('body_class', function ( $classes ){
  */
 add_filter( 'gutenberg_use_widgets_block_editor', '__return_false' );
 add_filter( 'use_widgets_block_editor', '__return_false' );
+
+add_action('upload_mimes', function ($mimes){
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+});

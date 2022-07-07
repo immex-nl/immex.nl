@@ -19,7 +19,11 @@
   },
   "devDependencies": {
     "@roots/bud": "5.8.7",
-    "@roots/bud-tailwindcss": "5.8.7",
+    "@roots/bud-postcss": "5.8.7",
+    "@roots/bud-sass": "5.8.7",
     "@roots/sage": "5.8.7"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4"
   }
 }

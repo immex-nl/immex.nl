@@ -1,13 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.page-header')
-
-  @if (! have_posts())
-    <x-alert type="warning">
-      {!! __('Sorry, but the page you are trying to view does not exist.', 'sage') !!}
-    </x-alert>
-
-    {!! get_search_form(false) !!}
-  @endif
+  <h1 class="has-text-grey-lighter">404</h1>
+  <a href="/" class="button is-primary">
+    <strong>Home</strong>
+  </a>
 @endsection

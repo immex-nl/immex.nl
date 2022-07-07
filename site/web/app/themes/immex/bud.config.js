@@ -11,8 +11,8 @@ module.exports = async (app) => {
      * Paths are relative to your resources directory
      */
     .entry({
-      app: ['@scripts/app', '@styles/app'],
-      editor: ['@scripts/editor', '@styles/editor'],
+      app: ['./resources/scripts/app', './resources/styles/app'],
+      editor: ['./resources/scripts/editor', './resources/styles/editor'],
     })
 
     /**
