@@ -1,5 +1,11 @@
 $primary: #0051ff;
-$family-sans-serif: Montserrat, sans-serif;
 $radius: 5px;
 
+$family-sans-serif: Montserrat, sans-serif;
+$body-weight: 500;
+
 @import "~bulma/bulma.sass";
+
+.button {
+  svg { height: 1em; width: auto; }
+}

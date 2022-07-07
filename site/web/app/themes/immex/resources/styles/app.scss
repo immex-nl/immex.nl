@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import "bulma";
+@import "pages/home";
 
+body {}
+main {}
 strong { font-weight: 600; }
 
 .header {
@@ -23,7 +26,18 @@ strong { font-weight: 600; }
     }
   }
   &__nav {
-    &--item { font-weight: 500; }
+    &--item {}
+  }
+}
+
+.footer {
+  @extend .has-text-grey;
+  padding: 2.2rem 0;
+  font-size: .8em;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

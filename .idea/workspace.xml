@@ -19,27 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80b16f53-7a5f-48d3-ab70-9c418dad94b6" name="Default Changelist" comment="sage init">
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/app.014f879b3717482ee91f.hot-update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/app.014f879b3717482ee91f.hot-update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/app.2823c044443eb6c1e8c0.hot-update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/app.2823c044443eb6c1e8c0.hot-update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/editor.014f879b3717482ee91f.hot-update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/editor.014f879b3717482ee91f.hot-update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/editor.2823c044443eb6c1e8c0.hot-update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/dist/editor.2823c044443eb6c1e8c0.hot-update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/bulma.scss" afterDir="false" />
+    <list default="true" id="80b16f53-7a5f-48d3-ab70-9c418dad94b6" name="Default Changelist" comment="immex init">
+      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/pages/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/components/icons/arrow-right.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/config/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/config/application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/app/filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/app/filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/app/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/bud.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/bud.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/404.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/bulma.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/styles/bulma.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/web/app/themes/immex/resources/views/sections/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +126,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +160,7 @@
       <workItem from="1656951781465" duration="587000" />
       <workItem from="1656954551294" duration="811000" />
       <workItem from="1657038828221" duration="11661000" />
-      <workItem from="1657178199244" duration="16941000" />
+      <workItem from="1657178199244" duration="18904000" />
     </task>
     <task id="LOCAL-00001" summary="frame">
       <created>1657051939382</created>
@@ -202,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657186645762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="immex init">
+      <created>1657205161712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657205161712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="immex init">
+      <created>1657205176173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657205176173</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +225,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="frame" />
     <MESSAGE value="sage init" />
-    <option name="LAST_COMMIT_MESSAGE" value="sage init" />
+    <MESSAGE value="immex init" />
+    <option name="LAST_COMMIT_MESSAGE" value="immex init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="433" key="#Composer" timestamp="1656952168330">
@@ -254,10 +257,10 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="484" y="288" key="IDE.errors.dialog/0.23.1792.1046@0.23.1792.1046" timestamp="1657182104680" />
-    <state x="715" y="476" key="NewPhpFileDialog" timestamp="1657183097549">
+    <state x="715" y="476" key="NewPhpFileDialog" timestamp="1657206567588">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state x="715" y="476" key="NewPhpFileDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1657183097549" />
+    <state x="715" y="476" key="NewPhpFileDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1657206567588" />
     <state x="397" y="185" key="SettingsEditor" timestamp="1657043971100">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
@@ -266,10 +269,10 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1792.1046@0.23.1792.1046" timestamp="1657203035367" />
-    <state x="496" y="286" key="Vcs.Push.Dialog.v2" timestamp="1657186647332">
+    <state x="496" y="286" key="Vcs.Push.Dialog.v2" timestamp="1657205178150">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state x="496" y="286" key="Vcs.Push.Dialog.v2/0.23.1792.1046@0.23.1792.1046" timestamp="1657186647332" />
+    <state x="496" y="286" key="Vcs.Push.Dialog.v2/0.23.1792.1046@0.23.1792.1046" timestamp="1657205178150" />
     <state x="694" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1657043935095">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
