@@ -25,6 +25,9 @@
       background: transparent;
       th, td {
         @extend .py-4, .px-5;
+        vertical-align: middle;
+        &:first-child { width: 230px; }
+        //&:last-child { width: 40%; }
       }
       th {
         font-size: 14px;
@@ -36,6 +39,23 @@
       }
       td {
         font-size: 15px;
+        &:first-child {
+          display: flex;
+          align-items: center;
+          span{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            strong {
+              @extend .has-text-grey-light, .ml-4;
+              font-weight: 500;
+            }
+          }
+        }
+        img {
+          @extend .mr-4;
+          height: 35px; width: auto;
+        }
       }
     }
   }

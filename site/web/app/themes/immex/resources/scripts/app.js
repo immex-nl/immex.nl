@@ -1,5 +1,7 @@
 import {domReady} from '@roots/sage/client';
 
+import home from './home';
+
 /**
  * app.main
  */
@@ -10,19 +12,8 @@ const main = async (err) => {
   }
 
   // application code
-  let socket = new WebSocket("wss://webws.gateio.live/v3/?v=430609");
-  socket.onopen = function() {
-    // alert("Соединение установлено.");
-    socket.send(JSON.stringify({
-      id: 10000,
-      method: "ticker.subscribe",
-      params: ["AVAX_USDT", "BTC_USDT", "ETH_USDT", "GARI_USDT", "GT_USDT", "SOL_USDT"]
-    }))
-  };
+  home
 
-  socket.onmessage = function(event) {
-    // alert("Получены данные " + event.data);
-  };
 };
 
 /**
